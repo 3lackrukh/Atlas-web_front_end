@@ -406,8 +406,7 @@ ul.row {
 
 .row::after {
     display: table-row;
-    visibility: hidden;
-    width: 100%;
+    content: "";
     float: none;
 }
 .navbar-menu {
