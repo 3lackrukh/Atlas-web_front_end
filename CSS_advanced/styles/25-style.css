@@ -595,7 +595,7 @@ ul.row {
     --section-footer-align: center;
     --section-tagline-margin: 0;
 /* button variables */
-    --button-display: block;
+    --button-display: inline-block
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
     --button-color: var(--color-black);
