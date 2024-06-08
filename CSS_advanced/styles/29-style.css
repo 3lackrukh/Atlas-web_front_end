@@ -451,7 +451,7 @@ ul.row {
 }
 
 .nav .nav-link::before {
-    content: empty;
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
