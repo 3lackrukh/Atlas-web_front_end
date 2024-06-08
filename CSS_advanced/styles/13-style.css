@@ -16,19 +16,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a {
-    &:link{
+a:link{
     color: var(--text-color);
     text-decoration: none;
-        &:visited {
-            font-style: italic;
+    &:visited {
+        font-style: italic;
         }
-        &:hover {
-            text-decoration: underline;
-        }
-        &:active {
-            background-color: var(--color-light-grey);
-        }
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        background-color: var(--color-light-grey);
     }
 }
 
