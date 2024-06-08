@@ -1,0 +1,1 @@
+This directory contains files created to practice CSS markup concepts
