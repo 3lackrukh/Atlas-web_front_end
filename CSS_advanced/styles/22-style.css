@@ -487,6 +487,12 @@ ul.row {
     margin-right: auto; 
 }
 
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white); 
+    background-color: var(--color-black);
+}
+
 .footer {
     padding: var(--footer-padding);
 }
