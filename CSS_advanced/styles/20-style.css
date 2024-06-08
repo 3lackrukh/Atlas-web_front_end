@@ -407,7 +407,7 @@ ul.row {
 .row::after {
     display: table;
     content: "";
-    float: none;
+    clear: both;
 }
 .navbar-menu {
     float: right;
