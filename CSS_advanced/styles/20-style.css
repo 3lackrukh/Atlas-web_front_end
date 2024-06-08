@@ -406,6 +406,7 @@ ul.row {
 
 .row > * {
     display: table-row;
+    visibility: hidden;
     width: 100%;
     float: none;
 }
