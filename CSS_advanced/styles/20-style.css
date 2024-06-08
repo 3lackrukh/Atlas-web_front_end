@@ -404,7 +404,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-.row > * {
+.row::after {
     display: table-row;
     visibility: hidden;
     width: 100%;
