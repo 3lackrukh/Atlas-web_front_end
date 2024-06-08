@@ -450,7 +450,7 @@ ul.row {
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-link::before {
+.nav a::before {
     content: none;
     position: absolute;
     top: 0;
