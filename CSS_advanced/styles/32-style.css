@@ -399,6 +399,8 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
+    transition: var(--transition-duration);
+    transition-property: color, background-color;
 }
 
 ul.row {
@@ -460,6 +462,8 @@ ul.row {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(--transition-duration), var(--transition-cubic-bezier);
+
 }
 
 .nav .nav-link:hover {
@@ -532,12 +536,21 @@ ul.row {
     overflow: hidden;
 }
 
+.card-work:hover .card-outer {
+    transform: scale(0.95);
+}
+
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration), var(--transition-cubic-bezier);
+}
+
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-image img {
@@ -547,8 +560,9 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0.7);
+.card-work:hover .card-image img {
+    transform: scale(1.2);
+    transition: var(--transition-duration), var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
@@ -702,6 +716,9 @@ ul.row {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+/* transition variables */
+    --transition-duration: .3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 /* nav variables */
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
