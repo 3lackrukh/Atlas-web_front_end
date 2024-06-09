@@ -543,13 +543,13 @@ ul.row {
     position: relative;
 }
 
-.card-work a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -560,21 +560,6 @@ ul.row {
 
 .card-work:hover .card-title {
     opacity: 1;
-}
-
-.card-title a {
-    display: block;
-    text-decoration: none;
-    padding-top: 45%;
-}
-
-.card-title a::after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: "";
 }
 
 .section {
